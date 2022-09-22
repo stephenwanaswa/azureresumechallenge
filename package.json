@@ -1,0 +1,20 @@
+{
+  "name": "azureresumechallenge",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenwanaswa/azureresumechallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenwanaswa/azureresumechallenge/issues"
+  },
+  "homepage": "https://github.com/stephenwanaswa/azureresumechallenge#readme",
+  "description": ""
+}
