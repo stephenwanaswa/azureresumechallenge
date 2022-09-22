@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
+  darkMode: media, // or 'media' or 'false'
+
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
@@ -10,6 +13,7 @@ module.exports = {
         nav: "#404053",
         secondary: "#9191a4",
         badge: "#3f3f51",
+        "badgewhite": "#3f3fff",
         "input-border": "#565666",
         input: "#2a2a35",
       },
