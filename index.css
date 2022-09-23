@@ -32,7 +32,7 @@ html, body{
 }
 
 .section-paragraph {
-    @apply text-secondary my-6 w-full max-w-3xl;
+    @apply text-secondary my-6 w-full ;
 }
 
 .badge {
@@ -48,9 +48,12 @@ scroll-margin-top: 100px;
 }
 
 .left-percentage {
-    left: 5%;
+    left: 3%;
 }
 
+.right-percentage {
+    right: 2%;
+}
 .h-screen-partial {
     height: 80vh;
 }
@@ -65,4 +68,8 @@ scroll-margin-top: 100px;
 
 .nav-dot:hover span {
     opacity: 1;
+}
+
+.display-none{
+    @apply hidden;
 }
